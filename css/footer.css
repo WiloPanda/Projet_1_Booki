@@ -1,0 +1,24 @@
+/****** Footer ***********/
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+footer {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:var(--main-bg-color); 
+}
+
+.footer-title {
+    margin: 0;
+}
+
+.footer-container {
+    display:flex;
+    flex-direction: column;
+    gap:15px;
+    padding:20px;
+}

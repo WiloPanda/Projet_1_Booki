@@ -1,0 +1,65 @@
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
+
+    /*********** Info ***********/
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info {
+        order:+1;
+    }
+
+    /*********** Filtres ***********/
+    .filtres {
+        display: flex;
+        flex-direction: column;
+    }
+
+     .conteneur-filtres {
+        margin-top: 20px;
+    }
+
+    /*********** Hebergements et Populaires ***********/
+    .hebergements-et-populaires {
+        flex-direction: column;
+    }
+
+    /********** Hebergements ***********/
+    .hebergements {
+        width: 100%;
+    }
+
+    /********** Populaires ***********/
+    .populaires {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .populaires-cards a {
+        width: 30%;
+    }
+
+    /********** Activites ***********/
+    .activites-cards .card {
+        display: grid;
+        grid-template-rows: 1fr 70px;
+    }
+
+    .activites-cards img {
+        height:193.50px;
+    }
+    
+}
